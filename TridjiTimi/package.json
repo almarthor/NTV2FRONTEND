@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "npx tailwindcss -i src/input.css -o src/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.17"
+  },
+  "dev": "TAILWIND_TOUCH_DIR='/var/www/html/.tailwindcss/touch' svelte-kit dev"
+}
