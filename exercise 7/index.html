@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./output.css" />
+</head>
+
+<body>
+  <div class="container  items-center m-auto pt-52">
+    <div class="flex justify-center pb-11">
+      <h1 class="mr-4 text-xl">veldu max</h1>
+      <input class="border border-black" type="number" id="maxInput">
+    </div>
+    <div class="flex justify-center pb-11">
+      <h1 class="mr-4 text-xl">veldu gain</h1>
+      <input class="border border-black" type="number" id="gainInput">
+    </div>
+    <div class="justify-center flex pb-11">
+      <h1 class="font-bold text-2xl" id="number">0</h1>
+    </div>
+    <div class=" space-x-3 flex justify-center h-10">
+      <button class="border bg-green-500 w-16" onclick="onPlusClick()">plús</button>
+      <button class="border bg-red-400 w-16 " onclick="onMinusClick()">Mínus</button>
+    </div>
+    <div class="space-x-3 flex justify-center h-10 mt-14">
+      <button class="border bg-gray-500 w-16" onclick="saveToLocalStorage()">Save</button>
+      <button class="border bg-gray-400 w-16 " onclick="getItemFromLocalStorage()">Load</button>
+  
+    <div class="flex justify-center">
+      <h1 id="boom" class="font-bold text-7xl bg-red-600 text-yellow-600 mt-14"></h1>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
