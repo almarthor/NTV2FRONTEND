@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+   <!-- NAV -->
+<header class="bg-[rgba(244,240,226,255)] fixed w-screen">
+    <nav class="container mx-auto  py-3">
+      <div class="flex items-center justify-between">
+        <div class="text-white font-bold text-xl">
+          <a href="index.html"><img class="h-32 w-full z-50" src="/img/hungry llama.png" alt=""></a>
+        </div>
+        <div class="">
+          <ul class="flex items-center space-x-4">
+            <li><a href="#about" class=" font-bold text-[rgba(244,240,226,255)] border-2 bg-[rgba(212,168,63,255)] rounded-md p-2">About</a></li>
+            <li><a href="menu.html" class=" font-bold text-[rgba(244,240,226,255)] border-2 bg-[rgba(93,158,164,255)] rounded-md p-2">Menu</a></li>
+            <li><a href="#contact" class=" font-bold text-[rgba(244,240,226,255)] border-2 bg-[rgba(129,89,81,255)] rounded-md p-2">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+   <!-- NAV -->
+   <!--HERO-->
+  
+<div class="h-screen bg-gray-50 flex pt-36">
+	<section class="bg-cover py-32 w-full" style="background-image: url(/img/waiter.avif);">
+		<div class="container mx-auto text-left  text-[rgba(129,89,81,255)]">
+			<div class="flex items-center">
+				<div class="ml-4 w-1/2 border-2 rounded-xl bg-[rgba(244,240,226,255)]">
+					<h1 class="text-5xl font-medium mb-6 ">Verið Velkomin</h1>
+					<p class="text-xl mb-12">The Hungry Lama er Góður veitingarstaður að öllum líkindum held ég hef samt ekki 
+                        hugmynd um það því eg veit ekki hvort hann sé til yfir höfuð en hérna er matseðillinn</p>
+					<a href="./menu.html" class="bg-[rgba(67,108,119,255)] text-[rgba(244,240,226,255)] py-4 px-12 rounded-full hover:bg-[rgba(212,168,63,255)]">Menu</a>
+				</div>
+			
+				</div>
+			</div>
+	</section>
+</div>
+  <!--HERO-->
+  <!--ABOUT-->
+<div class="bg-[rgba(212,168,63,255)] h-fit grid grid-cols-4 gap-4 py-24" id="about">
+    <div class="col-start-2 row-start-2 border-b-2 border-black">
+        <h1 class="text-xl font-bold mb-10 text-[rgba(93,158,164,255)]">Um Okkur</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iste neque unde est totam. Rem laborum officia veritatis? Sit ipsum incidunt deleniti quas quis dolorem fuga voluptatum non id facilis.</p>
+    </div>
+    <div class="col-start-3 row-start-2 border-b-2 border-black">
+        <img class="size-56 " src="./img/hungry llama.png" alt="">
+    </div>
+    <div class="col-start-2 row-start-3">
+        <img class="size-56" src="/img/waiter.avif" alt="">
+    </div>
+    <div class="col-start-3 row-start-3">
+        <h1 class="text-xl font-bold mb-10 text-[rgba(93,158,164,255)]">Um Okkur</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus vitae assumenda sit obcaecati saepe distinctio quibusdam dolorum harum, aliquid repellendus nisi aliquam laboriosam eveniet asperiores voluptatem doloremque fugiat sint! Veniam.</p>
+    </div>
+</div>
+<!--ABOUT-->
+<!--CONTACT-->
+<div class="h-full pb-16 bg-[rgba(129,89,81,255)]" id="contact">
+    <form class="w-fit max-w-lg m-auto pt-36">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label class="block uppercase tracking-wide text-[rgba(93,158,164,255)] text-xs font-bold mb-2" for="grid-first-name">
+              First Name
+            </label>
+            <input class="appearance-none block w-full bg-gray-200  border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+            
+          </div>
+          <div class="w-full md:w-1/2 px-3">
+            <label class="block uppercase tracking-wide text-[rgba(93,158,164,255)] text-xs font-bold mb-2" for="grid-last-name">
+              Last Name
+            </label>
+            <input class="appearance-none block w-full bg-gray-200 text-[rgba(93,158,164,255)] border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <label class="block uppercase tracking-wide text-[rgba(93,158,164,255)] text-xs font-bold mb-2" for="grid-password">
+              E-mail
+            </label>
+            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <label class="block uppercase tracking-wide text-[rgba(93,158,164,255)] text-xs font-bold mb-2" for="grid-password">
+              Message
+            </label>
+            <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-[rgba(93,158,164,255)] border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+          </div>
+        </div>
+        <div class="md:flex md:items-center">
+          <div class="md:w-1/3">
+            <button class="shadow bg-[rgba(93,158,164,255)] hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+              Send
+            </button>
+          </div>
+          <div class="md:w-2/3"></div>
+        </div>
+      </form>
+</div>
+</body>
+</html>
