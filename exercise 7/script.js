@@ -19,8 +19,7 @@ const onPlusClick = () => {
             num = 'sprunginn'
             bombText.textContent = 'Boom'
         }
-        numberdisp.textContent = num;  
-        console.log(gain)
+        numberdisp.textContent = num; 
 }
 
 const onMinusClick = () => {
@@ -35,12 +34,12 @@ const onMinusClick = () => {
 
 const saveToLocalStorage = () => {
     localStorage.setItem('number', num)
-    console.log('saved', num)
+    console.log('saved')
 }
 const getItemFromLocalStorage = () => {
     const savedNum = localStorage.getItem('number', num)
     numberdisp.textContent = savedNum
-    console.log('saved number', savedNum)
+    console.log('loaded')
 }
 
 
